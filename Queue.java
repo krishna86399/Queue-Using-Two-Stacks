@@ -42,6 +42,7 @@ class Queue {
     
     // Return whether the queue is empty.
     public boolean empty() {
+        return stack1.isEmpty();
 
     }
 
