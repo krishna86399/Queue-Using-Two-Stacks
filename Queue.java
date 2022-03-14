@@ -5,9 +5,13 @@ import java.io.*;
 import java.util.*;
 
 class Queue {
+    Stack <Integer> stack1;
+    Stack <Integer> stack2;
 
 
     public Queue() {
+        stack1=new Stack<Integer>();
+       stack2=new Stack<Integer>();
 
     }
 
